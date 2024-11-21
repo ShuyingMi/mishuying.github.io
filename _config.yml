@@ -12,7 +12,7 @@ title                    : "Shuying Mi / Personal Homepage"
 title_separator          : "-"
 name                     : &name "Shuying Mi"
 description              : &description "A first-year Ph.D. student from Nanjing University"
-url                      : https://ShuyingMi.github.io
+url                      : https://mishuying.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ShuyingMi/mishuying.github.io"
 
