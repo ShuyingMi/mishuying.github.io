@@ -7,43 +7,43 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Welcome to my website! I'm Shuying Mi, a first-year Ph.D. student at School of Environment, Nanjing University.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Research Interest: Environmental Economics; Environmantl Enforcement and Compliance
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Dissertation Committee: Bing Zhang
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+You can find my CV here: [Shuying Mi's Curriculum Vitae](../assets/英文简历.pdf)
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+[Email](mishuying@smail.nju.edu.cn) / [Github](https://github.com/ShuyingMi) 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Publications & Working Paper:**
+\[1] I Am Watching You: New Monitoring Technology and Corporate Environmental Performance
 
-**Markdown generator**
+**Blogs and Reading Notes (in Chinese):**
+My WeChat Public Account: Dorim1
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+Besides, I also publish several reading notes relevant to my research on my research group Public Account: 环境管理与政策研究中心
+\[1] [环境管理中的信息公开与公众参与：来自中国河长制的证据](https://mp.weixin.qq.com/s/_hU9aVYjFiwPuFyBNe7JmA)
+\[2] [用监测技术控制污染：促进监管还是局部努力？](https://mp.weixin.qq.com/s/yC5eJty_nLP4mQt70qNN5w)
+\[3] [被告知的执法：来自中国污染监测的证据](https://mp.weixin.qq.com/s/nEhd7IWhmCCZhIXXO05QOQ)
+\[4] [灌溉自动执法与节水的社会压力](https://mp.weixin.qq.com/s/Rir5s7tnqen6aSndRlnnJw)
+\[5] [美国大使馆的空气质量推文带来全球健康效益](https://mp.weixin.qq.com/s/NIZeRzLIDEuXSAu5Trznug)
+\[6] [监测技术与国家治理能力](https://mp.weixin.qq.com/s/o1iyIijabAJ6eJad1up0fg)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+**CEC Blog (in Chinese):**
+I'm a CEC (Camphor Economists Circle, the biggest economic research community in China, 香樟经济学术圈) freelance writer in CEC Friday Group since 2023. Here are my blogs on this platform.
+【香樟推文3144】[雷霆之势：中央环保督察与二氧化硫动态响应](https://mp.weixin.qq.com/s/YYYbGgxLSF91XthtkkOL-g)
+【香樟推文3224】[DDL是第一生产力？](https://mp.weixin.qq.com/s/afBviYP_IxvFhBuzAt4A9A)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**Lianxh Blog (in Chinese):**
+I'm also a Lianxh (a platform in China that fosters collaboration and knowledge exchange, primarily focusing on providing training and resources for students in fields such as data analysis and statistical software like Stata) teaching assistant. Here are my blogs in the teaching process.
+\[1] [机器学习：大佬建议的标准动作](https://mp.weixin.qq.com/s/cJdZAkQVFhNp0P_x2WUUdA)
+\[2] [知乎热议：博士生最好的状态是什么？](https://mp.weixin.qq.com/s/5pt5fuyQeJo_QCZG0R57hw)
+
+
+
+
+
+
